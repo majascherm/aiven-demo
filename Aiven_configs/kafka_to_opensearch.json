@@ -1,0 +1,14 @@
+{
+    "connection.username": "avnadmin",
+    "connection.url": "https://<opensearch host>:<port>",
+    "connection.password": "<your opensearch password>",
+    "name": "kafka_to_opensearch_sink",
+    "key.ignore": "true",
+    "connector.class": "io.aiven.kafka.connect.opensearch.OpensearchSinkConnector",
+    "tasks.max": "1",
+    "schema.ignore": "true",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "topics": "clickstream_transaction,clickstream_page_click,clickstream_search",
+    "type.name": "_doc",
+    "value.converter.schemas.enable": "false"
+}
