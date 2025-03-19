@@ -1,6 +1,9 @@
 # Aiven Real-Time Dashboard Demo
 
-Welcome to the **Aiven Real-Time Dashboard** project! This repository contains the link to my walkthrough of how to set up a working real time dashboard in OpenSearch as well as the Python scripts to generate test data. 
+Welcome to the **Aiven Real-Time Dashboard** project! This repository contains the link to my walkthrough of how to set up a working real time dashboard in OpenSearch by using Aiven's Kafka and Opensearch products as well as the Python scripts to generate test data. 
+
+## Overview 
+<img width="685" alt="Screenshot 2025-03-19 at 9 36 25 AM" src="https://github.com/user-attachments/assets/0c5a56c5-b7d8-464d-92f7-46fecce84327" />
 
 ## 📺 Demo Video Tutorial
 Watch the step-by-step tutorial here: [Aiven Demo Video](https://youtu.be/1Hf3KYhmZ_w)
